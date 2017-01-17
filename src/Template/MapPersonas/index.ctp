@@ -6,6 +6,9 @@
         <li><?= $this->Html->link(__('New Map Lugar Direccion'), ['controller' => 'MapLugarDireccions', 'action' => 'add']) ?></li>
     </ul>
 </nav>
+
+
+
 <div class="mapPersonas index large-9 medium-10 columns content">
     <h3><?= __('Map Personas') ?></h3>
     <table cellpadding="0" cellspacing="0">

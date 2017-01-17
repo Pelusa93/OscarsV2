@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
-
+use Cake\Datasource\ConnectionManager;
 /**
  * MapPersonas Controller
  *
@@ -18,6 +18,8 @@ class MapPersonasController extends AppController
      */
     public function index()
     {
+
+
         $this->paginate = [
             'contain' => ['MapLugarDireccions']
         ];
